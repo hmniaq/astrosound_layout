@@ -68,7 +68,7 @@ input:-ms-input-placeholder {
     align-items: center;
 }
 
-.table {
+.table-article {
     margin-left: 5%;
     display: flex;
     flex-flow: row;
@@ -134,7 +134,7 @@ input:-ms-input-placeholder {
     text-shadow: 0 5px 7px rgba(0, 0, 0, 0.6);
 }
 
-.header-list a, .nav-burger a, .service-a, .footer-a{
+.header-list a, .nav-burger a, .service-a, .footer-a, a{
     text-decoration: none;
 }
 
@@ -325,4 +325,130 @@ input:-ms-input-placeholder {
     color: #898989;
     margin-top: 35px;
     text-align: center;
+}
+
+.start_article {
+    margin-top: 150px;
+}
+
+.contact-info {
+    display: flex;
+    max-width: 40%;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+.info_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.info:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.info-h {
+    margin-bottom: 25px;
+}
+
+.icon {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.map {
+    border: 5px solid #00C5E0;
+}
+
+.active-a {
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: 5px;
+}
+
+/* .table {
+    border: 1px solid #898989;
+} */
+thead .table-stroke .table-cell {
+    border-bottom: 1px solid #898989;
+}
+
+.table-stroke:not(:last-child) .table-cell {
+    border-bottom: 1px solid #898989;
+}
+.table-stroke:hover .table-cell {
+    background: #00C5E0;
+    transition: 0.3s ease-in;
+}
+
+thead {
+    font-weight: 600;
+}
+
+.table-cell:not(:last-child) {
+    padding: 25px;
+    border-right: 1px solid #898989;
+}
+
+.table .table-cell:not(:first-child) {
+    text-align: center;
+    width: 30%;
+}
+
+.price-line {
+    padding-bottom: 3px;
+    border-bottom: 1px solid aliceblue;
+}
+
+.color-text {
+    color: #00C5E0;
+}
+
+.table-stroke:hover .color-text {
+    color: aliceblue;
+}
+
+.table {
+    margin-bottom: 50px;
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.input_wrapper {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.checkbox_wrapper {
+    font-size: 24px;
+}
+
+.radios {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.radio_wrapper p {
+    margin-bottom: 5px;
+}
+
+#hours {
+    font-weight: 600;
+    color: rgb(20,20,20);
 }
