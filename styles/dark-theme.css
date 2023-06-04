@@ -1,0 +1,100 @@
+* {
+    color: aliceblue;
+}
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+::-webkit-input-placeholder {color:#898989;}
+::-moz-placeholder          {color:#898989;}/* Firefox 19+ */
+:-moz-placeholder           {color:#898989;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#898989;}
+input[placeholder] {
+    color: aliceblue;
+    text-overflow:ellipsis;
+}
+input::-moz-placeholder {
+    color: aliceblue;
+    text-overflow:ellipsis;
+} 
+input:-moz-placeholder {
+    color: aliceblue;
+    text-overflow:ellipsis;
+} 
+input:-ms-input-placeholder {
+    color: aliceblue;
+    text-overflow:ellipsis;
+}  
+.header-unit a {
+    text-shadow: 0 5px 7px rgba(0, 0, 0, 0.6);
+}
+.cell {
+    border: 1px solid #898989;
+}
+.artist-p {
+    margin-top: 10px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.burger-line {
+    background-color: aliceblue;
+}
+.menu-burger {
+    color: aliceblue;
+}
+.burger-line {
+    background-color: aliceblue;
+}
+
+.nav-burger {
+    background-color: rgb(20,20,20);
+}
+
+.nav-burger a {
+    border-top: 1px solid aliceblue;
+}
+.input-name, .input-tel, .input-area {
+    background-color:  rgb(20,20,20);
+    border: 1px solid #898989;
+}
+.footer {
+    background-color: rgb(19, 18, 18);
+}
+.footer-a {
+    color: #898989;
+}
+.footer-p {
+    color: #898989;
+}
+.active-a {
+    border-bottom: 1px solid aliceblue;
+}
+thead .table-stroke .table-cell {
+    border-bottom: 1px solid #898989;
+}
+
+.table-stroke:not(:last-child) .table-cell {
+    border-bottom: 1px solid #898989;
+}
+
+.table-cell:not(:last-child) {
+    border-right: 1px solid #898989;
+}
+.price-line {
+    border-bottom: 1px solid aliceblue;
+}
+.table-stroke:hover .color-text {
+    color: aliceblue;
+}
+#hours {
+    font-weight: 600;
+    color: rgb(20,20,20);
+}
+
+@media (max-width: 899px) {
+
+    .header {
+        background-color: rgb(20,20,20);
+    }
+
+}

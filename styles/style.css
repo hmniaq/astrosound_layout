@@ -5,34 +5,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
     user-select: none;  
 }
-
-body {
-    background-color: rgb(20,20,20);
-}
-
-::-webkit-input-placeholder {color:#898989;}
-::-moz-placeholder          {color:#898989;}/* Firefox 19+ */
-:-moz-placeholder           {color:#898989;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#898989;}
-input[placeholder] {
-    color: aliceblue;
-    text-overflow:ellipsis;
-}
-input::-moz-placeholder {
-    color: aliceblue;
-    text-overflow:ellipsis;
-} 
-input:-moz-placeholder {
-    color: aliceblue;
-    text-overflow:ellipsis;
-} 
-input:-ms-input-placeholder {
-    color: aliceblue;
-    text-overflow:ellipsis;
-}  
 
 .header, .main, .footer, .main-container, .article {
     display: flex;
@@ -42,15 +16,9 @@ input:-ms-input-placeholder {
     width: 100%;
 }
 
-
-
 .main, .article, .footer {
     flex-direction: column;
     align-items: center;
-}
-
-.main {
-    background-color: rgb(20,20,20);
 }
 
 .container {
@@ -93,7 +61,6 @@ input:-ms-input-placeholder {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    border: 1px solid #898989;
     text-align: center;
 }
 
@@ -104,7 +71,6 @@ input:-ms-input-placeholder {
 .artist-p {
     margin-top: 10px;
     font-weight: 600;
-    color: aliceblue;
 }
 
 .default-menu {
@@ -124,10 +90,6 @@ input:-ms-input-placeholder {
 .header-unit {
     margin-left: 32px;
     margin-right: 32px;
-}
-
-.header-unit a {
-    text-shadow: 0 5px 7px rgba(0, 0, 0, 0.6);
 }
 
 .header-list a, .nav-burger a, .service-a, .footer-a, a{
@@ -157,7 +119,6 @@ input:-ms-input-placeholder {
 }
 
 .burger-line {
-    background-color: aliceblue;
     position: absolute;
     top: 8px;
     right: 10px;
@@ -198,22 +159,6 @@ input:-ms-input-placeholder {
     max-height: 500px;
     font-size: 16px;
     transition: ease-in 0.3s;
-}
-
-.menu-burger {
-    color: aliceblue;
-}
-
-.burger-line {
-    background-color: aliceblue;
-}
-
-.nav-burger {
-    background-color: rgb(20,20,20);
-}
-
-.nav-burger a {
-    border-top: 1px solid aliceblue;
 }
 
 .bcg-img {
@@ -351,8 +296,6 @@ input:-ms-input-placeholder {
 
 .input-name, .input-tel, .input-area {
     padding: 5px;
-    background-color:  rgb(20,20,20);
-    border: 1px solid #898989;
 }
 
 .input-name:hover, .input-tel:hover, .input-area:hover{
@@ -374,7 +317,6 @@ input:-ms-input-placeholder {
 }
 
 .footer {
-    background-color: rgb(19, 18, 18);
     padding: 50px;
 }
 
@@ -393,16 +335,11 @@ input:-ms-input-placeholder {
     text-align: right;
 }
 
-.footer-a {
-    color: #898989;
-}
-
 .footer-a:not(:last-child) {
     margin-bottom: 15px;
 }
 
 .footer-p {
-    color: #898989;
     margin-top: 35px;
     text-align: center;
 }
@@ -451,20 +388,13 @@ input:-ms-input-placeholder {
 }
 
 .active-a {
-    border-bottom: 1px solid aliceblue;
     padding-bottom: 5px;
 }
 
 /* .table {
     border: 1px solid #898989;
 } */
-thead .table-stroke .table-cell {
-    border-bottom: 1px solid #898989;
-}
 
-.table-stroke:not(:last-child) .table-cell {
-    border-bottom: 1px solid #898989;
-}
 .table-stroke:hover .table-cell {
     background: #00C5E0;
     transition: 0.3s ease-in;
@@ -476,7 +406,6 @@ thead {
 
 .table-cell:not(:last-child) {
     padding: 25px;
-    border-right: 1px solid #898989;
 }
 
 .table .table-cell:not(:first-child) {
@@ -485,16 +414,11 @@ thead {
 }
 
 .price-line {
-    padding-bottom: 3px;
     border-bottom: 1px solid aliceblue;
 }
 
 .color-text {
     color: #00C5E0;
-}
-
-.table-stroke:hover .color-text {
-    color: aliceblue;
 }
 
 .table {
@@ -526,11 +450,6 @@ thead {
 
 .radio_wrapper p {
     margin-bottom: 5px;
-}
-
-#hours {
-    font-weight: 600;
-    color: rgb(20,20,20);
 }
 
 .drum_wrapper {
@@ -656,7 +575,6 @@ thead {
         justify-content: center;
         align-items: center;
         padding: 20px;
-        border: 1px solid #898989;
         text-align: center;
     }
 
@@ -707,7 +625,6 @@ thead {
         position: fixed;
         z-index: 100;
         top: 0;
-        background-color: rgb(20,20,20);
     }
 
     .default-menu {
@@ -748,7 +665,6 @@ thead {
         justify-content: center;
         align-items: center;
         padding: 20px;
-        border: 1px solid #898989;
         text-align: center;
     }
 
@@ -863,7 +779,6 @@ thead {
 
     .table-cell:not(:last-child) {
         padding: 5px;
-        border-right: 1px solid #898989;
     }
 
     .table {

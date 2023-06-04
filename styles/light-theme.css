@@ -1,0 +1,108 @@
+* {
+    color: rgb(20, 20, 20);
+}
+body {
+    background-color: aliceblue;
+}
+::-webkit-input-placeholder {color:#898989;}
+::-moz-placeholder          {color:#898989;}/* Firefox 19+ */
+:-moz-placeholder           {color:#898989;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#898989;}
+input[placeholder] {
+    color: rgb(20, 20, 20);
+    text-overflow:ellipsis;
+}
+input::-moz-placeholder {
+    color: rgb(20, 20, 20);
+    text-overflow:ellipsis;
+} 
+input:-moz-placeholder {
+    color: rgb(20, 20, 20);
+    text-overflow:ellipsis;
+} 
+input:-ms-input-placeholder {
+    color: rgb(20, 20, 20);
+    text-overflow:ellipsis;
+}  
+.header {
+    justify-content: center;
+    font-weight: 400;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    font-size: 20px;
+}
+.header-unit a {
+    color: rgb(20, 20, 20);
+}
+.cell {
+    border: 1px solid #898989;
+}
+.artist-p {
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgb(20, 20, 20);
+}
+.burger-line {
+    background-color: rgb(20, 20, 20);
+}
+.menu-burger {
+    color: rgb(20, 20, 20);
+}
+.nav-burger {
+    background-color: aliceblue;
+}
+.nav-burger a {
+    border-top: 1px solid rgb(20, 20, 20);
+}
+.input-name, .input-tel, .input-area {
+    background-color:  aliceblue;
+    border: 1px solid #898989;
+}
+.submit-button {
+    border: 0px;
+    color: aliceblue;
+}
+.footer {
+    background-color:rgba(20, 20, 20, 0.842);
+}
+.footer-a {
+    color: aliceblue;
+}
+.footer-p {
+    color: aliceblue;
+}
+.active-a {
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+thead .table-stroke .table-cell {
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+
+.table-stroke:not(:last-child) .table-cell {
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+
+.table-cell:not(:last-child) {
+    border-right: 1px solid rgb(20, 20, 20);
+}
+.price-line {
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+.table-stroke:hover .color-text {
+    color: rgb(20, 20, 20);
+}
+#hours {
+    font-weight: 600;
+    color: rgb(20,20,20);
+}
+
+@media (max-width: 899px) {
+
+    .header {
+        background-color: aliceblue;
+    }
+
+}
